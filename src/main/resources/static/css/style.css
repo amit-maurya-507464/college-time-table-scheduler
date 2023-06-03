@@ -1,0 +1,56 @@
+.header {
+  overflow: hidden;
+  background-color: #d9d9d9;
+  padding: 10px 10px;
+}
+
+.header a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+  background: linear-gradient(
+    to right,
+    midnightblue,
+    midnightblue 50%,
+    royalblue 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.header a.name {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.header img {
+  max-width: 100px;
+  float: left;
+  margin: 5px 10px 0 150px;
+  border-radius: 50%;
+}
+
+.header a:hover {
+  background-position: 0 100%;
+}
+
+.header-right {
+  float: center;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #292c2f;
+  color: white;
+}

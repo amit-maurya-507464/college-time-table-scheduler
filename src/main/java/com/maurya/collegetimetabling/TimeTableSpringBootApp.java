@@ -30,7 +30,7 @@ public class TimeTableSpringBootApp {
         SpringApplication.run(TimeTableSpringBootApp.class, args);
     }
 
-    @Value("${timeTable.demoData:SMALL}")
+    @Value("${timeTable.demoData}")
     private DemoData demoData;
 
     @Bean
